@@ -36,6 +36,9 @@ The LaTeX and pdf files are included in nuSQuIDS/doc/ folder.
 
 Configuration
 -------------
+my config in cobalt
+
+        ./configure --prefix=$INSTALL_PATH --with-gsl-incdir=$SROOT/include --with-gsl-libdir=$SROOT/lib --with-squids-incdir=$INSTALL_PATH/include --with-squids-libdir=$INSTALL_PATH/lib --with-python-bindings --with-boost=$SROOT
 
 The path for the GSL libraries can be specified by running:
 
